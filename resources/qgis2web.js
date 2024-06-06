@@ -794,3 +794,31 @@ titleElement.innerHTML = 'Geomorphological, Geological and Structural Data from 
 
 // Adiciona o elemento div ao body
 document.body.appendChild(titleElement);
+
+var windRoseControl = (function(Control) {
+    windRoseControl = function(opt_options) {
+  
+      var options = opt_options || {};
+  
+      var windRoseElement = document.createElement('div');
+      windRoseElement.className += ' wind-rose';
+      windRoseElement.style.backgroundImage = 'url("https://github.com/earapanos/GeospatialDataGCCS/blob/main/layers/north.png")'; // Caminho para sua imagem
+  
+      var element = document.createElement('div');
+      element.className = 'wind-rose-control ol-unselectable ol-control';
+      element.appendChild(windRoseElement);
+  
+      Control.call(this, {
+        element: element,
+        target: options.target
+      });
+  
+    };
+    if (Control) windRoseControl.__proto__ = Control;
+    windRoseControl.prototype = Object.create(Control && Control.prototype);
+    windRoseControl.prototype.constructor = windRoseControl;
+    return windRoseControl;
+  }(ol.control.Control));
+
+var windRose = new windRoseControl();
+map.addControl(windRose);
