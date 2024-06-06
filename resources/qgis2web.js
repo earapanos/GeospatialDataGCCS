@@ -777,5 +777,20 @@ map.on("rendercomplete", function(evt) {
 	    attributionList.insertBefore(linkPaperAttribution, firstLayerAttribution); // Adiciona o link do Paper
         attributionComplete = true;
     }
-});
+})
 
+// Cria um elemento div para o título
+var titleElement = document.createElement('div');
+titleElement.style.position = 'fixed'; // Define a posição como fixa
+titleElement.style.top = '10px'; // Posição em relação ao topo da tela
+titleElement.style.left = '50%'; // Posição em relação à esquerda da tela
+titleElement.style.transform = 'translateX(-50%)'; // Centraliza horizontalmente
+titleElement.style.textAlign = 'center';
+titleElement.style.backgroundColor = 'white';
+titleElement.style.padding = '10px';
+titleElement.style.border = '1px solid black';
+titleElement.style.fontFamily = 'Calibri';
+titleElement.innerHTML = 'Geomorphological, Geological and Structural Data from GCCS - Brazil'; // Texto do título
+
+// Adiciona o elemento div ao body
+document.body.appendChild(titleElement);
