@@ -768,12 +768,10 @@ map.on("rendercomplete", function(evt) {
         qgisAttribution.innerHTML = '<a href="https://qgis.org/">QGIS</a>';
         var linkedinAttribution = document.createElement('li');
         linkedinAttribution.innerHTML = '<a href="https://www.linkedin.com/in/eduardo-rapanos/">EDUARDO RAPANOS</a>';
-
         attributionList.insertBefore(qgis2webAttribution, firstLayerAttribution);
         attributionList.insertBefore(olAttribution, firstLayerAttribution);
         attributionList.insertBefore(qgisAttribution, firstLayerAttribution);
-        attributionList.appendChild(linkedinAttribution, firstLayerAttribution.nextSibling);  // Adiciona o link do LinkedIn no final da lista
-
+        attributionList.appendChild(linkedinAttribution, firstLayerAttribution);  // Adiciona o link do LinkedIn no final da lista
         attributionComplete = true;
     }
 })
