@@ -760,17 +760,17 @@ map.on("rendercomplete", function(evt) {
         var attribution = document.getElementsByClassName('ol-attribution')[0];
         var attributionList = attribution.getElementsByTagName('ul')[0];
         var firstLayerAttribution = attributionList.getElementsByTagName('li')[0];
-        var qgis2webAttribution = document.createElement('li');
-        qgis2webAttribution.innerHTML = '<a href="https://github.com/tomchadwin/qgis2web">qgis2web</a> &middot; ';
+       //var qgis2webAttribution = document.createElement('li');
+       // qgis2webAttribution.innerHTML = '<a href="https://github.com/tomchadwin/qgis2web">qgis2web</a> &middot; ';
         var olAttribution = document.createElement('li');
         olAttribution.innerHTML = '<a href="https://openlayers.org/">OpenLayers</a> &middot; ';
         var qgisAttribution = document.createElement('li');
-        qgisAttribution.innerHTML = '<a href="https://qgis.org/">QGIS</a>';
+        qgisAttribution.innerHTML = '<a href="https://qgis.org/">QGIS</a> &middot; ';
         var linkedinAttribution = document.createElement('li');
-        linkedinAttribution.innerHTML = '<a href="https://www.linkedin.com/in/eduardo-rapanos/">Eduardo Rapanos - Author</a>';
+        linkedinAttribution.innerHTML = '<a href="https://www.linkedin.com/in/eduardo-rapanos/">Eduardo Rapanos - Author</a> &middot; ';
 	var linkPaperAttribution = document.createElement('li');
         linkPaperAttribution.innerHTML = '<a href="https://www.researchgate.net/publication/362291916_Caracterizacao_morfoestrutural_e_morfoescultural_no_territorio_do_Geoparque_Global_UNESCO_Caminhos_dos_Canions_do_Sul_RSSC?_sg%5B0%5D=hlcg83WtixYwOxnxm6fV5JMqCLsSXWR6_mRSdF2WO44qXnriIU7xLnwKsdd3sVEc7w9F5sDtFqbDYAX2IkBw_b-Yo_9F6_PF-dgfS_wh.Aute_5FCQO7oBrVpodQEik4INloDu0mTYytnwff9jsSRpkjaxiU4L6ZBXU3lxiDCqQUWCVVY0X3gm5Pd7R8Vdg&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19">Paper Link</a>';
-        attributionList.insertBefore(qgis2webAttribution, firstLayerAttribution);
+        // attributionList.insertBefore(qgis2webAttribution, firstLayerAttribution);
         attributionList.insertBefore(olAttribution, firstLayerAttribution);
         attributionList.insertBefore(qgisAttribution, firstLayerAttribution);
         attributionList.insertBefore(linkedinAttribution, firstLayerAttribution); // Adiciona o link do LinkedIn no final da lista
