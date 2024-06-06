@@ -22,6 +22,18 @@ The geoevolutionary context, coupled with recent climatic conditions, has led to
 
 This project presents an updated and detailed cartography of relief units for the CCGS territory, characterizing two morphosculptures from the first taxonomic level (Bacia Geológica e Magmatismo Serra Geral and Planície Costeira) and six morphostructures from the second taxonomic level (Patamares da Serra Geral, Escarpas da Serra Geral, Planalto da Serra Geral, Planalto Dissecado Rio das Antas, Planície Continental, and Planície Litorânea). A new unit is proposed based on distinct morphometric characteristics of the Serra Geral Plateau.
 
+## How to Cite
+
+When referencing this data, please use the following citation:
+
+**APA Style:**
+
+Rapanos, E. A., Valdati, J., & Gomes, M. C. V. (2022). Caracterização morfoestrutural e morfoescultural no território do Geoparque Global UNESCO Caminhos dos Cânions do Sul, RS/SC. Revista Brasileira de Geografia Física, 15(4), 1732-1749. http://dx.doi.org/10.26848/rbgf.v15.4.p1732-1749
+
+**ABNT Style:**
+
+RAPANOS, Eduardo Adriani; VALDATI, Jairo; GOMES, Maria Carolina Villaça. Caracterização morfoestrutural e morfoescultural no território do Geoparque Global UNESCO Caminhos dos Cânions do Sul, RS/SC. Revista Brasileira de Geografia Física, [S.L.], v. 15, n. 4, p. 1732-1749, 19 jul. 2022. http://dx.doi.org/10.26848/rbgf.v15.4.p1732-1749.
+
 ## Contact
 
 For more information, please connect with me on LinkedIn: [Eduardo Rapanos](https://www.linkedin.com/in/eduardo-rapanos/)
