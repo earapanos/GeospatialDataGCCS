@@ -772,7 +772,7 @@ map.on("rendercomplete", function(evt) {
         attributionList.insertBefore(qgis2webAttribution, firstLayerAttribution);
         attributionList.insertBefore(olAttribution, firstLayerAttribution);
         attributionList.insertBefore(qgisAttribution, firstLayerAttribution);
-        attributionList.appendChild(linkedinAttribution);  // Adiciona o link do LinkedIn no final da lista
+        attributionList.appendChild(linkedinAttribution, firstLayerAttribution.nextSibling);  // Adiciona o link do LinkedIn no final da lista
 
         attributionComplete = true;
     }
