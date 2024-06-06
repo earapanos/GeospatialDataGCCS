@@ -778,3 +778,16 @@ map.on("rendercomplete", function(evt) {
         attributionComplete = true;
     }
 })
+
+// Cria um elemento div para o título
+var titleElement = document.createElement('div');
+titleElement.style.textAlign = 'center';
+titleElement.style.backgroundColor = 'white';
+titleElement.style.padding = '10px';
+titleElement.style.border = '1px solid black';
+titleElement.style.fontFamily = 'Calibri';
+titleElement.style.marginBottom = '10px'; // Espaçamento abaixo do título
+titleElement.innerHTML = 'Geomorphological, Geological and Structural Data from GCCS - Brazil'; // Texto do título
+
+// Adiciona o elemento div ao início do body
+document.body.insertBefore(titleElement, document.body.firstChild);
