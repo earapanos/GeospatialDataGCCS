@@ -767,11 +767,11 @@ map.on("rendercomplete", function(evt) {
         var qgisAttribution = document.createElement('li');
         qgisAttribution.innerHTML = '<a href="https://qgis.org/">QGIS</a>';
         var linkedinAttribution = document.createElement('li');
-        linkedinAttribution.innerHTML = '<a href="https://www.linkedin.com/in/eduardo-rapanos/">EDUARDO RAPANOS</a>';
+        linkedinAttribution.innerHTML = '<a href="https://www.linkedin.com/in/eduardo-rapanos/">Eduardo Rapanos - Author</a>';
         attributionList.insertBefore(qgis2webAttribution, firstLayerAttribution);
         attributionList.insertBefore(olAttribution, firstLayerAttribution);
         attributionList.insertBefore(qgisAttribution, firstLayerAttribution);
-        attributionList.appendChild(linkedinAttribution);  // Adiciona o link do LinkedIn no final da lista
+        attributionList.insertBefore(linkedinAttribution, firstLayerAttribution);  // Adiciona o link do LinkedIn no final da lista
         attributionComplete = true;
     }
 })
