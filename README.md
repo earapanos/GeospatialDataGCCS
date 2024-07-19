@@ -1,5 +1,10 @@
 # WebGIS Project for Geoparque Caminhos dos Cânions do Sul (GCCS)
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3ba7eca3-31ac-4b24-8e34-28934e981726" alt="Demonstração">
+</div>
+
+
 ## Project Overview
 
 This WebGIS project is dedicated to publishing detailed geomorphological, geological, and structural data for the territory of the Caminhos dos Cânions do Sul UNESCO Global Geopark (GCCS). The goal is to provide an accessible platform for visualizing and analyzing the unique geological features and processes that define this region. **Explore the WebGIS platform here: [Geospatial Data GCCS WebMap](https://earapanos.github.io/GeospatialDataGCCS/).**
